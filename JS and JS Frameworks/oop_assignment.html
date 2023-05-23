@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>OOP Assignment</title>
+</head>
+<body>
+    <h1>Class and Instance</h1>
+
+    <!DOCTYPE html>
+<html>
+<head>
+  <title>Dog Class Example</title>
+</head>
+<body>
+  <h1>Dog Class Example</h1>
+  <script>
+    class Dog {
+      constructor(breed, color, height, weight) {
+        this.breed = breed;
+        this.color = color;
+        this.height = height;
+        this.weight = weight;
+      }
+
+      shake() {
+        console.log("The dog is shaking hands.");
+      }
+
+      sit() {
+        console.log("The dog is sitting.");
+      }
+
+      layDown() {
+        console.log("The dog is lying down.");
+      }
+    }
+
+    const hound = new Dog("Hound", "Brown", "24 inches", "60 pounds");
+    hound.shake();         // Output: The dog is shaking hands.
+    hound.sit();           // Output: The dog is sitting.
+    hound.layDown();       // Output: The dog is lying down.
+    console.log("Breed: " + hound.breed);
+    console.log("Color: " + hound.color);
+    console.log("Height: " + hound.height);
+    console.log("Weight: " + hound.weight);
+  </script>
+</body>
+</html>
+
+    
+</body>
+
+</html>
