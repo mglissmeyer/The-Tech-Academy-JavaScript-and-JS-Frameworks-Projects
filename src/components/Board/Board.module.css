@@ -1,0 +1,12 @@
+.board {
+    display: flex;
+    flex-direction: row;
+    border: solid 5px #ff00f2;
+    border-radius: 5px;
+    background-color: #ff3333;
+}
+
+.columns {
+    display: flex;
+    flex-direction: row;
+}
